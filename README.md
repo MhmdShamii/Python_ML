@@ -98,15 +98,6 @@ The final project. Train a Convolutional Neural Network to recognize handwritten
 
 ---
 
-## 🛠️ Bonus Files (Root)
-
-| File | Description |
-|------|-------------|
-| `camera_open.py` | Simple webcam viewer using OpenCV |
-| `hand_skeleton.py` | Real-time hand detection + skeleton with MediaPipe |
-
----
-
 ## ⚙️ Setup
 
 ### Install all required libraries:
