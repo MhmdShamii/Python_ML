@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# Data & models
+*.h5
+*.pkl
+*.npy
+*.csv
+data/
+
+# Images
+*.jpg
+*.png
+*.jpeg
+
+# OS
+.DS_Store
+Thumbs.db
