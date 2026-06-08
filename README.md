@@ -114,7 +114,7 @@ Python 3.9 or higher recommended
 
 ## 📈 Progress Tracker
 
-- [ ] Phase 1 — Python Basics
+- [x] Phase 1 — Python Basics
 - [ ] Phase 2 — NumPy & Pandas
 - [ ] Phase 3 — Visualization
 - [ ] Phase 4 — Neural Network Theory
