@@ -16,8 +16,6 @@ ml-journey/
 ├── phase4_neural_networks/       # Neural network theory & concepts
 ├── phase5_mnist/                 # Final project — digit recognition
 │
-├── camera_open.py                # Open webcam with OpenCV
-├── hand_skeleton.py              # Hand detection with MediaPipe
 └── README.md                     # This file
 ```
 
