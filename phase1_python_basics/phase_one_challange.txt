@@ -1,0 +1,50 @@
+# ─────────────────────────────────────────────────
+# 🏆 PHASE 1 FINAL BOSS CHALLENGE
+# Build a Mini Neural Network Training Simulator
+# ─────────────────────────────────────────────────
+#
+# Your program must do ALL of the following:
+#
+# 1. Create a model config dictionary with:
+#    - "name"          → "MNIST_Model"
+#    - "learning_rate" → 0.001
+#    - "epochs"        → 5
+#    - "batch_size"    → 32
+#    - "layers"        → [784, 128, 64, 10]
+#
+# 2. Write a function called simulate_epoch(epoch_num, prev_loss, prev_accuracy)
+#    that simulates one training epoch and returns:
+#    - new_loss     = prev_loss - (some small random decrease)
+#    - new_accuracy = prev_accuracy + (some small random increase)
+#    Hint: use random.uniform() to generate small random numbers
+#    import random
+#    random.uniform(0.02, 0.08)  ← gives a random float between 0.02 and 0.08
+#
+# 3. Write a function called train(config)
+#    that:
+#    - starts with loss=1.0 and accuracy=0.0
+#    - loops for config["epochs"] number of epochs
+#    - calls simulate_epoch() each iteration
+#    - prints each epoch like:
+#      "Epoch 1/5 — loss: 0.8423  accuracy: 0.6721"
+#    - stores each result in a list of dictionaries:
+#      [{"epoch": 1, "loss": 0.84, "accuracy": 0.67}, ...]
+#    - returns the results list
+#
+# 4. Write a function called save_results(results, filename)
+#    that saves the training results to a .txt file like:
+#    Epoch 1: loss=0.8423, accuracy=0.6721
+#    Epoch 2: loss=0.7891, accuracy=0.7234
+#    ...
+#
+# 5. Write a function called summarize(results)
+#    that prints:
+#    "Training Complete!"
+#    "Best accuracy : 0.91  (epoch 5)"
+#    "Final loss    : 0.32"
+#    "Improvement   : +0.91 accuracy over 5 epochs"
+#   
+# 6. Run everything:
+#    results = train(model_config)
+#    save_results(results, "phase1_python_basics/training_results.txt")
+#    summarize(results)
