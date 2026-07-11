@@ -13,8 +13,6 @@ ml-journey/
 ├── phase1_python_basics/         # Python fundamentals for ML
 ├── phase2_numpy_pandas/          # Data manipulation & math arrays
 ├── phase3_visualization/         # Plotting data with Matplotlib
-├── phase4_neural_networks/       # Neural network theory & concepts
-├── phase5_mnist/                 # Final project — digit recognition
 │
 └── README.md                     # This file
 ```
@@ -70,39 +68,6 @@ See your data before modeling it. Matplotlib is the standard library for plottin
 
 ---
 
-### Phase 4 — Neural Network Theory `phase4_neural_networks/`
-
-> **Duration:** ~3 weeks · **Status:** ⏳ Not Started
-
-Understand what's happening under the hood before building. Covers the math and intuition behind neural nets.
-
-| File                         | Description                                 |
-| ---------------------------- | ------------------------------------------- |
-| `01_perceptron.py`           | Build a single neuron from scratch          |
-| `02_activation_functions.py` | ReLU, Sigmoid, Softmax — visualized         |
-| `03_forward_pass.py`         | Manual forward pass through a small network |
-| `04_loss_functions.py`       | What is loss? Cross-entropy explained       |
-| `05_backpropagation.py`      | How the network learns (gradient descent)   |
-
----
-
-### Phase 5 — MNIST Digit Recognition 🎯 `phase5_mnist/`
-
-> **Duration:** ~3–4 weeks · **Status:** ⏳ Not Started
-
-The final project. Train a Convolutional Neural Network to recognize handwritten digits, then test it live with your webcam.
-
-| File                   | Description                                     |
-| ---------------------- | ----------------------------------------------- |
-| `01_load_dataset.py`   | Load and explore the MNIST dataset              |
-| `02_preprocess.py`     | Normalize images, prepare training data         |
-| `03_build_model.py`    | Build the CNN architecture with Keras           |
-| `04_train_model.py`    | Train the model, plot accuracy & loss           |
-| `05_evaluate_model.py` | Test accuracy on unseen data                    |
-| `06_live_demo.py`      | 🎥 Webcam demo — draw a digit, model guesses it |
-
----
-
 ## ⚙️ Setup
 
 ### Install all required libraries:
@@ -123,20 +88,4 @@ Python 3.9 or higher recommended
 
 - [x] Phase 1 — Python Basics
 - [x] Phase 2 — NumPy & Pandas
-- [ ] Phase 3 — Visualization
-- [ ] Phase 4 — Neural Network Theory
-- [ ] Phase 5 — MNIST (final project)
-
----
-
-## 🎯 End Goal
-
-```
-You draw a digit on paper  →  webcam captures it  →  neural network predicts the number
-```
-
-Built with: Python · NumPy · TensorFlow/Keras · OpenCV · MediaPipe
-
----
-
-_Learning path guided by Claude (Anthropic) · Started June 2026_
+- [x] Phase 3 — Visualization
